@@ -1,0 +1,40 @@
+/* Voor het in het midden krijgen van de form, gevonden door stackoverflow */
+html {
+    min-height:  100%;
+    display: grid;
+}
+
+
+body {
+   margin: auto;
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 255, 255);
+   background-color: rgb(43, 6, 75);
+}
+
+p {
+    font-size: small;
+    color:rgb(255, 255, 255)
+}
+
+form {
+    width: 400px;
+    margin: 20px;
+}
+
+input {
+   display: block;
+    padding: 8px 16px;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    outline: none !important;
+}
+
+.headertext {
+    font-weight: bold;
+}
