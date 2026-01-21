@@ -9,13 +9,13 @@ body {
    margin: auto;
    text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: rgb(255, 255, 255);
-   background-color: rgb(43, 6, 75);
+   color: rgb(0, 0, 0);
+   background-color: rgb(152, 255, 156);
 }
 
 p {
     font-size: small;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 
 form {
@@ -35,6 +35,23 @@ input {
     outline: none !important;
 }
 
-.headertext {
-    font-weight: bold;
+/* was niet van plan, maar heb de form een mooie background gegeven */
+.formbackground{
+   background-color: rgb(255, 255, 255);
+   padding: 40px;
+   margin: 30px;
+   border-radius: 40px;
+   box-shadow: 5px 10px;
+}
+
+
+
+/* validatie styles */
+
+input.valid{
+    border-color: green;
+}
+
+input.invalid{
+    border-color: red;
 }

@@ -7,6 +7,7 @@
     <title>Signup Form</title>
 </head>
 <body>
+    <div class="formbackground">
     <h1>Registreer Formulier</h1>
     <p class="headertext">Vul alstublieft netjes uw juiste gegevens in</p></body></br>
 
@@ -14,15 +15,17 @@
      <p>Email moet geldige email zijn met @</p>
      <input type="text" name="email" placeholder="Email">
 
-      <p>Gebruikersnaam moet minimaal tussen 5-12 characters</p>
-     <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam">
+      <p>Gebruikersnaam moet alfanumeriek zijn en minimaal tussen 5-12 characters</p>
+     <input type="text" name="username" placeholder="Gebruikersnaam">
      
      <!-- wachtwoord hoort type = password te zijn -->
-     <p>Wachtwoord moet alfanumeriek zijn (@._tekens mogen ook) en minimaal 8-20 tekens bevatten</p>
-     <input type ="text" name="wachtwoord" placeholder="Wachtwoord">
+     <p>Wachtwoord moet alfanumeriek zijn (@ . _ tekens mogen ook) en minimaal 8-20 tekens bevatten</p>
+     <input type ="text" name="password" placeholder="Wachtwoord">
     
      <p>Telefoonnummer moet een geldig nederlands nummer zijn</p>
-     <input type ="text" name="telefoon" placeholder="Telefoonnummer">
+     <input type ="text" name="telephone" placeholder="Telefoonnummer">
     </form>
+   <script type="text/javascript" src="validation.js"></script>
+   </div>
 </body>
 </html>
